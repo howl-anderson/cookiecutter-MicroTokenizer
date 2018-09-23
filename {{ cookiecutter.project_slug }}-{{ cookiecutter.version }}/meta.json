@@ -1,0 +1,36 @@
+{
+  "tokenizers":[
+    "dag_tokenizer",
+    "hmm_tokenizer",
+    "crf_tokenizer",
+    "max_match_forward_tokenizer",
+    "max_match_backward_tokenizer"
+  ],
+  "accuracy":{
+    "token_acc":99.8698372794,
+    "ents_p":84.9664503965,
+    "ents_r":85.6312524451,
+    "uas":91.7237657538,
+    "tags_acc":97.0403350292,
+    "ents_f":85.2975560875,
+    "las":89.800872413
+  },
+  "name":"{{ cookiecutter.project_slug }}",
+  "license":"{{ cookiecutter.license }}",
+  "author":"{{ cookiecutter.author }}",
+  "url":"{{ cookiecutter.url }}",
+  "sources":[
+    "OntoNotes 5",
+    "Common Crawl"
+  ],
+  "version":"{{ cookiecutter.version }}",
+  "MicroTokenizer_version":">=0.10",
+  "parent_package":"MicroTokenizer",
+  "speed":{
+    "gpu":null,
+    "nwords":291344,
+    "cpu":5122.3040471407
+  },
+  "email":"{{ cookiecutter.email }}",
+  "description":"{{ cookiecutter.description }}"
+}

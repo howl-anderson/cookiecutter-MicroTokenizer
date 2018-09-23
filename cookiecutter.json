@@ -1,0 +1,9 @@
+{
+    "project_slug": "core_pd_md",
+    "license": "MIT",
+    "author": "Some one",
+    "url": "http://some.site",
+    "version": "0.1.0",
+    "email": "somebody@some.site",
+    "description": "This package do some great thing for everyone!"
+}
